@@ -22,9 +22,6 @@ they can access their internal data in a human-readable way, using constants (as
 to handle the hard work of calculating memory offsets.
 
 ## To Do:
-- Rebuild in Haskell/Elm
-- Frontend, the tool needs a UI form to both display and submit changes
-
-### Nice to haves:
-- API for potential web app use
-- Command line interface
+- Rewrite in Haskell
+- GUI
+- Handle different memory card formats (currently only handles retroarch .srm files)
