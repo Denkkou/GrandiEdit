@@ -1,10 +1,7 @@
 # GrandiEdit - A save game editor for Grandia on the Playstation 1
-GrandiEdit is a utility to view and modify values within a memory card image containing save
-data for Grandia on the PS1/PSX. 
 
-## Currently in progress
-The project is a work in progress, with an intent to pivot to a different language (Golang). Python
-made the prototype and foundational logic quick and easy, but the tool requires some extra care.
+## Currently Abandoned
+This repo stays for posterity, but is ultimately abandoned. As of 20/10/26, this project has been back on my radar with an intent to rewrite it in Haskell as a native application. I have learned a lot since starting this, and my affections lie elsewhere.
 
 ## Fully mapped memory locations
 Every bit in the save file is appropriately mapped after being reverse-engineered with [ImHex](https://github.com/WerWolv/ImHex)
@@ -25,7 +22,7 @@ they can access their internal data in a human-readable way, using constants (as
 to handle the hard work of calculating memory offsets.
 
 ## To Do:
-- Rebuild in Go
+- Rebuild in Haskell/Elm
 - Frontend, the tool needs a UI form to both display and submit changes
 
 ### Nice to haves:
